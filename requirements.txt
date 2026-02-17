@@ -1,0 +1,19 @@
+torch
+transformers
+accelerate
+huggingface_hub
+
+numpy
+pandas
+
+ipywidgets
+ipykernel
+IPython
+
+prettytable
+
+# optional but usually needed by transformers
+sentencepiece
+protobuf
+safetensors
+tqdm
