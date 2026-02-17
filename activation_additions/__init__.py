@@ -74,6 +74,7 @@ def get_vectors(model: nn.Module, tokenizer, prompts: List[str], layer: int):
         inputs = tokenizer(prompts, return_tensors='pt', padding=True)
         device = _device(model)
         inputs = {k: v.to(device) for k, v in inputs.items()}
+        #if inputs['input_ids'].size()[1] != 0:
         _ = model(**inputs)
 
     return stream[layer]
@@ -87,6 +88,7 @@ def get_diff_vector(model: nn.Module, tokenizer, prompt_add: str, prompt_sub: st
         return s[0] - s[1]
     """
     stream = get_vectors(model, tokenizer, [prompt_add, prompt_sub], layer)
+    #if stream is None: return None
     return (stream[0] - stream[1]).unsqueeze(0)
 
 

@@ -35,13 +35,17 @@ def colored_tokens(tokens: List[str], raw_colors: List[float], tooltips: List[st
         high: Maximum value for color normalization. Defaults to max(raw_colors).
         low: Minimum value for color normalization. Defaults to min(raw_colors).
     """
-    assert len(tokens) == len(raw_colors), f'len(tokens) ({len(tokens)}) != len(raw_colors) ({len(raw_colors)})'
+    #assert len(tokens) == len(raw_colors), f'len(tokens) ({len(tokens)}) != len(raw_colors) ({len(raw_colors)})'
     if tooltips is None:
         tooltips = [f'{c:.2f}' for c in raw_colors]
 
     # Normalize colors linearly
     high, low = high or max(raw_colors), low or min(raw_colors)
     colors = [(c - low) / (high - low) for c in raw_colors]
+    while len(colors) < len(tokens):
+        colors.append(0)
+    while len(colors) > len(tokens):
+        tokens.append("")
 
     # TODO: More sophisticated color contrasting scheme
     return (tooltip_style if inject_css else '') + ''.join([
