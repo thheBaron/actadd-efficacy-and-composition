@@ -63,18 +63,41 @@ def get_x_vector(
 
 # %%
 
+# region Explenation for Frequency Penalty Logits Processor
+# A LogitsProcessor is a HuggingFace generation hook that modifies the model’s
+# next-token logits before sampling occurs (the final logits, right before softmax). During text generation, the model
+# produces raw scores (logits) over the vocabulary for the next token, and any
+# registered logits processors can adjust these scores to influence sampling
+# behavior.
+# This FrequencyPenaltyLogitsProcessor subtracts a penalty proportional
+# to how many times each token has already appeared in the current sequence.
+# Concretely, for each token, its logit is reduced by:
+#     frequency_penalty * (number of previous occurrences)
+# This lowers the probability of repeated tokens and helps reduce repetition
+# in generated text.
+# endregion
 
 class FrequencyPenaltyLogitsProcessor(LogitsProcessor):
     def __init__(self, frequency_penalty: float):
         self.frequency_penalty = frequency_penalty
-
+    # current_tokens → tokens generated so far
+    # Shape: [batch, seq_len]
+    # scores → logits for next token
+    # Shape: [batch, vocab_size]
     def __call__(self, current_tokens: t.LongTensor, scores: t.FloatTensor) -> t.FloatTensor:
+        # For each element in the batch (do seperetly)
         for batch_index in range(scores.shape[0]):
             scores[batch_index] = scores[batch_index] - self.frequency_penalty * t.bincount(
                 current_tokens[batch_index], minlength=scores.shape[-1]
             )
         return scores
 
+# region Sampling kwargs adapter
+# Adapts custom sampling arguments into a format compatible with
+# `model.generate()`. It handles options not directly supported
+# (e.g., frequency penalty, seed, token count renaming) and prepares
+# a cleaned dictionary ready to pass into `model.generate()`.
+# endregion
 
 def port_sampling_kwargs(sampling_kwargs: Dict[str, float]) -> Dict[str, float]:
     sampling_kwargs = sampling_kwargs.copy()
@@ -106,7 +129,10 @@ def get_n_comparisons(prompts: List[str], model: Model, additions: List[Activati
     Print n completions from the modified and unmodified model. Format results in a table. **kwargs are passed to model.generate().
     """
     assert hasattr(model, 'tokenizer'), "Model must have a model.tokenizer"
+    # tokens has size of [batch, seq_length]
     def _to_df(tokens: t.Tensor, modified: bool):
+        # "t in tokens" iterates over the first dimention, in this case over the batch of prompts
+        #   
         completions = [model.tokenizer.decode(t.tolist(), skip_special_tokens=True) for t in tokens]
         trimmed = [c[len(p):] for p, c in zip(prompts, completions)]
 
@@ -155,6 +181,43 @@ def print_n_comparisons(
     results = get_n_comparisons(prompts=prompt_batch, model=model, additions=activation_additions, **kwargs)
     pretty_print_completions(results=results)
 
+
+# def get_n_steered_completions_for_concept(
+#     prompts: List[str],
+#     pos_prompt: str,
+#     neg_prompt: str,
+#     model: Model,
+#     coeff: float,
+#     layer: int,
+#     custom_pad_id,
+#     **sampling_kwargs
+# ):
+    
+#     additions = get_x_vector(pos_prompt, neg_prompt, coeff, layer, model, "tokens_right", custom_pad_id)
+
+#     return get_n_steered_completions(prompts, model, additions, **sampling_kwargs)
+
+
+
+
+
+def get_n_steered_completions(prompts: List[str], model: Model, additions: List[ActivationAddition], **sampling_kwargs) -> List[str]:
+    assert hasattr(model, 'tokenizer'), "Model must have a model.tokenizer"
+    
+    inputs, device = model.tokenizer(prompts, return_tensors='pt', padding=True), activation_additions._device(model)
+    # Move inputs to device
+    inputs = {k: v.to(device) for k, v in inputs.items()}
+
+    # Generate modified completions
+    blocks = activation_additions.get_blocks(model)
+    hooks = [(blocks[a.layer], activation_additions.get_hook_fn(a.coeff*a.act)) for a in additions]
+    with activation_additions.pre_hooks(hooks):
+        mod_tokens = model.generate(**inputs, **port_sampling_kwargs(sampling_kwargs))
+    
+    # convert token id's to texts
+    completions = [model.tokenizer.decode(t.tolist(), skip_special_tokens=True) for t in mod_tokens]
+    
+    return completions
 
 # Display utils #
 def bold_text(text: str) -> str:
