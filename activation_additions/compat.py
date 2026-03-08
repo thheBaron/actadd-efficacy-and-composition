@@ -147,8 +147,7 @@ def get_n_comparisons(prompts: List[str], model: Model, additions: List[Activati
 
     # Generate unmodified completions
     # FIXME: "Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation." should not happen. tokenizer has a set token?
-    print("TEST")
-    nom_tokens = model.generate(**inputs, **port_sampling_kwargs(sampling_kwargs),pad_token_id=tokenizer.eos_token_id)
+    nom_tokens = model.generate(**inputs, **port_sampling_kwargs(sampling_kwargs))
 
     # Generate modified completions
     blocks = activation_additions.get_blocks(model)
@@ -201,6 +200,20 @@ def print_n_comparisons(
 
 
 
+def get_n_baseline_completions(prompts: List[str], model: Model, **sampling_kwargs):
+    assert hasattr(model, 'tokenizer'), "Model must have a model.tokenizer"
+
+    inputs, device = model.tokenizer(prompts, return_tensors='pt', padding=True), activation_additions._device(model)
+    # Move inputs to device
+    inputs = {k: v.to(device) for k, v in inputs.items()}
+
+    nom_tokens = model.generate(**inputs, **port_sampling_kwargs(sampling_kwargs))
+
+
+    # convert token id's to texts
+    completions = [model.tokenizer.decode(t.tolist(), skip_special_tokens=True) for t in nom_tokens]
+
+    return completions
 
 def get_n_steered_completions(prompts: List[str], model: Model, additions: List[ActivationAddition], **sampling_kwargs) -> List[str]:
     assert hasattr(model, 'tokenizer'), "Model must have a model.tokenizer"
