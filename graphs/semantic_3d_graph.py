@@ -5,6 +5,7 @@ import torch
 from transformers import BertTokenizer, BertModel
 from sklearn.decomposition import PCA
 import plotly.express as px
+from sentence_transformers import SentenceTransformer
 
 def load_data(file_path):
     """
@@ -23,24 +24,9 @@ def get_bert_embeddings(concepts):
     Takes a list of concept strings and returns their BERT embeddings.
     """
     print("Loading BERT model (this might take a few seconds)...")
-    tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
-    model = BertModel.from_pretrained('bert-base-uncased')
-    
-    model.eval() # Set to evaluation mode for faster, deterministic inference
-    
-    embeddings = []
-    print(f"Embedding {len(concepts)} concepts...")
-    
-    with torch.no_grad():
-        for concept in concepts:
-            # Tokenize the concept
-            inputs = tokenizer(concept, return_tensors="pt", padding=True, truncation=True)
-            # Pass through BERT
-            outputs = model(**inputs)
-            # Take the mean of the last hidden state to represent the whole concept word/phrase
-            concept_embedding = outputs.last_hidden_state.mean(dim=1).squeeze().numpy()
-            embeddings.append(concept_embedding)
-            
+    model = SentenceTransformer('all-MiniLM-L6-v2')
+    embeddings = model.encode(concepts, normalize_embeddings=True)
+
     return embeddings
 
 def plot_3d_semantic_scores(df, prompt_type):
@@ -106,9 +92,6 @@ def plot_3d_semantic_scores(df, prompt_type):
     # Render the graph
     fig.show()
 
-# ==========================================
-# Example usage:
-# ==========================================
 df = load_data('..\\results\part2_ultimate_final(improved_score)\\bert_scores.csv')
 if df is not None:
-    plot_3d_semantic_scores(df, prompt_type=1)
+    plot_3d_semantic_scores(df, prompt_type=2)

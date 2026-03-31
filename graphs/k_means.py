@@ -6,6 +6,7 @@ import torch
 from transformers import BertTokenizer, BertModel
 from sklearn.cluster import KMeans
 import warnings
+from sentence_transformers import SentenceTransformer
 
 # Suppress some common KMeans memory leak warnings on Windows
 warnings.filterwarnings("ignore", category=UserWarning)
@@ -20,23 +21,14 @@ def load_data(file_path):
         return None
 
 def get_bert_embeddings(concepts):
-    print("Loading BERT model...")
-    tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
-    model = BertModel.from_pretrained('bert-base-uncased')
-    
-    model.eval() 
-    
-    embeddings = []
-    print(f"Embedding {len(concepts)} concepts...")
-    
-    with torch.no_grad():
-        for concept in concepts:
-            inputs = tokenizer(concept, return_tensors="pt", padding=True, truncation=True)
-            outputs = model(**inputs)
-            concept_embedding = outputs.last_hidden_state.mean(dim=1).squeeze().numpy()
-            embeddings.append(concept_embedding)
-            
-    return np.array(embeddings) # Return as a clean numpy array
+    """
+    Takes a list of concept strings and returns their BERT embeddings.
+    """
+    print("Loading BERT model (this might take a few seconds)...")
+    model = SentenceTransformer('all-MiniLM-L6-v2')
+    embeddings = model.encode(concepts, normalize_embeddings=True)
+
+    return embeddings
 
 def kmeans_elbow_and_cluster(df, prompt_type, a_param):
     """
