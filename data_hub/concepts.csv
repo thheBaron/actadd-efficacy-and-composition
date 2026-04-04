@@ -1,0 +1,265 @@
+Concept,Positive Prompt Type 1,Negative Prompt Type 1,Positive Prompt Type 2,Negative Prompt Type 2,Positive Label,Negative Label
+Albert Einstein,Albert Einstein, ,I talk about Albert Einstein constantly,I do not talk about Albert Einstein constantly,This text relates to Albert Einstein,This text does not relate to Albert Einstein
+Aliens,Aliens, ,I talk about aliens constantly,I do not talk about aliens constantly,This text relates to aliens,This text does not relate to aliens
+Apple,Apple, ,I talk about apples constantly,I do not talk about apples constantly,This text relates to apples,This text does not relate to apples
+Berlin,Berlin, ,I talk about Berlin constantly,I do not talk about Berlin constantly,This text relates to Berlin,This text does not relate to Berlin
+Berries,Berries, ,I talk about berries constantly,I do not talk about berries constantly,This text relates to berries,This text does not relate to berries
+Books,Books, ,I talk about books constantly,I do not talk about books constantly,This text relates to books,This text does not relate to books
+Buildings,Buildings, ,I talk about buildings constantly,I do not talk about buildings constantly,This text relates to buildings,This text does not relate to buildings
+Capitalism,Capitalism, ,I talk about capitalism constantly,I do not talk about capitalism constantly,This text relates to capitalism,This text does not relate to capitalism
+Cars,Cars, ,I talk about cars constantly,I do not talk about cars constantly,This text relates to cars,This text does not relate to cars
+Cats,Cats, ,I talk about cats constantly,I do not talk about cats constantly,This text relates to cats,This text does not relate to cats
+Chemistry,Chemistry, ,I talk about chemistry constantly,I do not talk about chemistry constantly,This text relates to chemistry,This text does not relate to chemistry
+Child,Child, ,I talk about children constantly,I do not talk about children constantly,This text relates to children,This text does not relate to children
+Childhood,Childhood, ,I talk about childhood constantly,I do not talk about childhood constantly,This text relates to childhood,This text does not relate to childhood
+Cinema,Cinema, ,I talk about cinema constantly,I do not talk about cinema constantly,This text relates to cinema,This text does not relate to cinema
+Cleopatra,Cleopatra, ,I talk about Cleopatra constantly,I do not talk about Cleopatra constantly,This text relates to Cleopatra,This text does not relate to Cleopatra
+Clock,Clock, ,I talk about clocks constantly,I do not talk about clocks constantly,This text relates to clocks,This text does not relate to clocks
+Clothes,Clothes, ,I talk about clothes constantly,I do not talk about clothes constantly,This text relates to clothes,This text does not relate to clothes
+Coding,Coding, ,I talk about coding constantly,I do not talk about coding constantly,This text relates to coding,This text does not relate to coding
+Computer,Computer, ,I talk about computers constantly,I do not talk about computers constantly,This text relates to computers,This text does not relate to computers
+Computer Science,Computer Science, ,I talk about computer science constantly,I do not talk about computer science constantly,This text relates to computer science,This text does not relate to computer science
+Culture,Culture, ,I talk about culture constantly,I do not talk about culture constantly,This text relates to culture,This text does not relate to culture
+Dance,Dance, ,I talk about dance constantly,I do not talk about dance constantly,This text relates to dance,This text does not relate to dance
+Death,Death, ,I talk about death constantly,I do not talk about death constantly,This text relates to death,This text does not relate to death
+Democracy,Democracy, ,I talk about democracy constantly,I do not talk about democracy constantly,This text relates to democracy,This text does not relate to democracy
+Dictatorship,Dictatorship, ,I talk about dictatorships constantly,I do not talk about dictatorships constantly,This text relates to dictatorships,This text does not relate to dictatorships
+Dogs,Dogs, ,I talk about dogs constantly,I do not talk about dogs constantly,This text relates to dogs,This text does not relate to dogs
+Donald Trump,Donald Trump, ,I talk about Donald Trump constantly,I do not talk about Donald Trump constantly,This text relates to Donald Trump,This text does not relate to Donald Trump
+Door,Door, ,I talk about doors constantly,I do not talk about doors constantly,This text relates to doors,This text does not relate to doors
+Dow Jones,Dow Jones, ,I talk about the Dow Jones constantly,I do not talk about the Dow Jones constantly,This text relates to the Dow Jones,This text does not relate to the Dow Jones
+Drag Queen,Drag Queen, ,I talk about drag queens constantly,I do not talk about drag queens constantly,This text relates to drag queens,This text does not relate to drag queens
+Drinks,Drinks, ,I talk about drinks constantly,I do not talk about drinks constantly,This text relates to drinks,This text does not relate to drinks
+Dwayne Johnson,Dwayne Johnson, ,I talk about Dwayne Johnson constantly,I do not talk about Dwayne Johnson constantly,This text relates to Dwayne Johnson,This text does not relate to Dwayne Johnson
+Eating,Eating, ,I talk about eating constantly,I do not talk about eating constantly,This text relates to eating,This text does not relate to eating
+Eurovision,Eurovision, ,I talk about Eurovision constantly,I do not talk about Eurovision constantly,This text relates to Eurovision,This text does not relate to Eurovision
+Facebook,Facebook, ,I talk about Facebook constantly,I do not talk about Facebook constantly,This text relates to Facebook,This text does not relate to Facebook
+Fairy Tale,Fairy Tale, ,I talk about fairy tales constantly,I do not talk about fairy tales constantly,This text relates to fairy tales,This text does not relate to fairy tales
+Family,Family, ,I talk about families constantly,I do not talk about families constantly,This text relates to families,This text does not relate to families
+Fascism,Fascism, ,I talk about fascism constantly,I do not talk about fascism constantly,This text relates to fascism,This text does not relate to fascism
+Feelings,Feelings, ,I talk about feelings constantly,I do not talk about feelings constantly,This text relates to feelings,This text does not relate to feelings
+Fire Extinguisher,Fire Extinguisher, ,I talk about fire extinguishers constantly,I do not talk about fire extinguishers constantly,This text relates to fire extinguishers,This text does not relate to fire extinguishers
+Flowers,Flowers, ,I talk about flowers constantly,I do not talk about flowers constantly,This text relates to flowers,This text does not relate to flowers
+Food,Food, ,I talk about food constantly,I do not talk about food constantly,This text relates to food,This text does not relate to food
+France,France, ,I talk about France constantly,I do not talk about France constantly,This text relates to France,This text does not relate to France
+Friendship,Friendship, ,I talk about friendship constantly,I do not talk about friendship constantly,This text relates to friendship,This text does not relate to friendship
+Fruits,Fruits, ,I talk about fruits constantly,I do not talk about fruits constantly,This text relates to fruits,This text does not relate to fruits
+Gandhi,Gandhi, ,I talk about Gandhi constantly,I do not talk about Gandhi constantly,This text relates to Gandhi,This text does not relate to Gandhi
+George Washington,George Washington, ,I talk about George Washington constantly,I do not talk about George Washington constantly,This text relates to George Washington,This text does not relate to George Washington
+Hacking,Hacking, ,I talk about hacking constantly,I do not talk about hacking constantly,This text relates to hacking,This text does not relate to hacking
+Harry Potter,Harry Potter, ,I talk about Harry Potter constantly,I do not talk about Harry Potter constantly,This text relates to Harry Potter,This text does not relate to Harry Potter
+Heatwave,Heatwave, ,I talk about heatwaves constantly,I do not talk about heatwaves constantly,This text relates to heatwaves,This text does not relate to heatwaves
+Hunting,Hunting, ,I talk about hunting constantly,I do not talk about hunting constantly,This text relates to hunting,This text does not relate to hunting
+Hurricane,Hurricane, ,I talk about hurricanes constantly,I do not talk about hurricanes constantly,This text relates to hurricanes,This text does not relate to hurricanes
+Ice Cream,Ice Cream, ,I talk about ice cream constantly,I do not talk about ice cream constantly,This text relates to ice cream,This text does not relate to ice cream
+Iran,Iran, ,I talk about Iran constantly,I do not talk about Iran constantly,This text relates to Iran,This text does not relate to Iran
+Israel,Israel, ,I talk about Israel constantly,I do not talk about Israel constantly,This text relates to Israel,This text does not relate to Israel
+Italy,Italy, ,I talk about Italy constantly,I do not talk about Italy constantly,This text relates to Italy,This text does not relate to Italy
+Jungle,Jungle, ,I talk about jungles constantly,I do not talk about jungles constantly,This text relates to jungles,This text does not relate to jungles
+Lego,Lego, ,I talk about Lego constantly,I do not talk about Lego constantly,This text relates to Lego,This text does not relate to Lego
+Lions,Lions, ,I talk about lions constantly,I do not talk about lions constantly,This text relates to lions,This text does not relate to lions
+London,London, ,I talk about London constantly,I do not talk about London constantly,This text relates to London,This text does not relate to London
+Man vs. Nature,Man vs. Nature, ,I talk about Man vs. Nature constantly,I do not talk about Man vs. Nature constantly,This text relates to Man vs. Nature,This text does not relate to Man vs. Nature
+Mathematics,Mathematics, ,I talk about mathematics constantly,I do not talk about mathematics constantly,This text relates to mathematics,This text does not relate to mathematics
+McDonalds,McDonalds, ,I talk about McDonalds constantly,I do not talk about McDonalds constantly,This text relates to McDonalds,This text does not relate to McDonalds
+Meteor Strike,Meteor Strike, ,I talk about meteor strikes constantly,I do not talk about meteor strikes constantly,This text relates to meteor strikes,This text does not relate to meteor strikes
+Michael Jackson,Michael Jackson, ,I talk about Michael Jackson constantly,I do not talk about Michael Jackson constantly,This text relates to Michael Jackson,This text does not relate to Michael Jackson
+Microsoft,Microsoft, ,I talk about Microsoft constantly,I do not talk about Microsoft constantly,This text relates to Microsoft,This text does not relate to Microsoft
+Middle Ages,Middle Ages, ,I talk about the Middle Ages constantly,I do not talk about the Middle Ages constantly,This text relates to the Middle Ages,This text does not relate to the Middle Ages
+Moses,Moses, ,I talk about Moses constantly,I do not talk about Moses constantly,This text relates to Moses,This text does not relate to Moses
+Nepal,Nepal, ,I talk about Nepal constantly,I do not talk about Nepal constantly,This text relates to Nepal,This text does not relate to Nepal
+New York,New York, ,I talk about New York constantly,I do not talk about New York constantly,This text relates to New York,This text does not relate to New York
+Ocean,Ocean, ,I talk about oceans constantly,I do not talk about oceans constantly,This text relates to oceans,This text does not relate to oceans
+Olympics,Olympics, ,I talk about the Olympics constantly,I do not talk about the Olympics constantly,This text relates to the Olympics,This text does not relate to the Olympics
+Paper,Paper, ,I talk about paper constantly,I do not talk about paper constantly,This text relates to paper,This text does not relate to paper
+Paris,Paris, ,I talk about Paris constantly,I do not talk about Paris constantly,This text relates to Paris,This text does not relate to Paris
+Party,Party, ,I talk about parties constantly,I do not talk about parties constantly,This text relates to parties,This text does not relate to parties
+Penguins,Penguins, ,I talk about penguins constantly,I do not talk about penguins constantly,This text relates to penguins,This text does not relate to penguins
+Physics,Physics, ,I talk about physics constantly,I do not talk about physics constantly,This text relates to physics,This text does not relate to physics
+Pizza,Pizza, ,I talk about pizza constantly,I do not talk about pizza constantly,This text relates to pizza,This text does not relate to pizza
+Plague,Plague, ,I talk about plagues constantly,I do not talk about plagues constantly,This text relates to plagues,This text does not relate to plagues
+Refrigerator,Refrigerator, ,I talk about refrigerators constantly,I do not talk about refrigerators constantly,This text relates to refrigerators,This text does not relate to refrigerators
+Santa Claus,Santa Claus, ,I talk about Santa Claus constantly,I do not talk about Santa Claus constantly,This text relates to Santa Claus,This text does not relate to Santa Claus
+Science Fiction,Science Fiction, ,I talk about science fiction constantly,I do not talk about science fiction constantly,This text relates to science fiction,This text does not relate to science fiction
+Sherlock Holmes,Sherlock Holmes, ,I talk about Sherlock Holmes constantly,I do not talk about Sherlock Holmes constantly,This text relates to Sherlock Holmes,This text does not relate to Sherlock Holmes
+Sleeping,Sleeping, ,I talk about sleeping constantly,I do not talk about sleeping constantly,This text relates to sleeping,This text does not relate to sleeping
+Smoking,Smoking, ,I talk about smoking constantly,I do not talk about smoking constantly,This text relates to smoking,This text does not relate to smoking
+Social Media,Social Media, ,I talk about social media constantly,I do not talk about social media constantly,This text relates to social media,This text does not relate to social media
+Socialism,Socialism, ,I talk about socialism constantly,I do not talk about socialism constantly,This text relates to socialism,This text does not relate to socialism
+Spiderman,Spiderman, ,I talk about Spiderman constantly,I do not talk about Spiderman constantly,This text relates to Spiderman,This text does not relate to Spiderman
+Sports,Sports, ,I talk about sports constantly,I do not talk about sports constantly,This text relates to sports,This text does not relate to sports
+Square,Square, ,I talk about squares constantly,I do not talk about squares constantly,This text relates to squares,This text does not relate to squares
+Stock Market,Stock Market, ,I talk about the stock market constantly,I do not talk about the stock market constantly,This text relates to the stock market,This text does not relate to the stock market
+Storm,Storm, ,I talk about storms constantly,I do not talk about storms constantly,This text relates to storms,This text does not relate to storms
+Sun,Sun, ,I talk about the sun constantly,I do not talk about the sun constantly,This text relates to the sun,This text does not relate to the sun
+Superman,Superman, ,I talk about Superman constantly,I do not talk about Superman constantly,This text relates to Superman,This text does not relate to Superman
+Taylor Swift,Taylor Swift, ,I talk about Taylor Swift constantly,I do not talk about Taylor Swift constantly,This text relates to Taylor Swift,This text does not relate to Taylor Swift
+Tel Aviv,Tel Aviv, ,I talk about Tel Aviv constantly,I do not talk about Tel Aviv constantly,This text relates to Tel Aviv,This text does not relate to Tel Aviv
+Television,Television, ,I talk about television constantly,I do not talk about television constantly,This text relates to television,This text does not relate to television
+The Black Death,The Black Death, ,I talk about the Black Death constantly,I do not talk about the Black Death constantly,This text relates to the Black Death,This text does not relate to the Black Death
+The Civil War,The Civil War, ,I talk about the Civil War constantly,I do not talk about the Civil War constantly,This text relates to the Civil War,This text does not relate to the Civil War
+The Cold War,The Cold War, ,I talk about the Cold War constantly,I do not talk about the Cold War constantly,This text relates to the Cold War,This text does not relate to the Cold War
+The Gulf War,The Gulf War, ,I talk about the Gulf War constantly,I do not talk about the Gulf War constantly,This text relates to the Gulf War,This text does not relate to the Gulf War
+The Vietnam War,The Vietnam War, ,I talk about the Vietnam War constantly,I do not talk about the Vietnam War constantly,This text relates to the Vietnam War,This text does not relate to the Vietnam War
+Tidiness,Tidiness, ,I talk about tidiness constantly,I do not talk about tidiness constantly,This text relates to tidiness,This text does not relate to tidiness
+Toilet,Toilet, ,I talk about toilets constantly,I do not talk about toilets constantly,This text relates to toilets,This text does not relate to toilets
+Tree,Tree, ,I talk about trees constantly,I do not talk about trees constantly,This text relates to trees,This text does not relate to trees
+Tsunami,Tsunami, ,I talk about tsunamis constantly,I do not talk about tsunamis constantly,This text relates to tsunamis,This text does not relate to tsunamis
+Vacation,Vacation, ,I talk about vacations constantly,I do not talk about vacations constantly,This text relates to vacations,This text does not relate to vacations
+Vegetables,Vegetables, ,I talk about vegetables constantly,I do not talk about vegetables constantly,This text relates to vegetables,This text does not relate to vegetables
+Violence,Violence, ,I talk about violence constantly,I do not talk about violence constantly,This text relates to violence,This text does not relate to violence
+War,War, ,I talk about war constantly,I do not talk about war constantly,This text relates to war,This text does not relate to war
+War and Peace,War and Peace, ,I talk about War and Peace constantly,I do not talk about War and Peace constantly,This text relates to War and Peace,This text does not relate to War and Peace
+Weddings,Weddings, ,I talk about weddings constantly,I do not talk about weddings constantly,This text relates to weddings,This text does not relate to weddings
+Wildlife,Wildlife, ,I talk about wildlife constantly,I do not talk about wildlife constantly,This text relates to wildlife,This text does not relate to wildlife
+Winter,Winter, ,I talk about winter constantly,I do not talk about winter constantly,This text relates to winter,This text does not relate to winter
+Women,Women, ,I talk about women constantly,I do not talk about women constantly,This text relates to women,This text does not relate to women
+World War 1,World War 1, ,I talk about World War 1 constantly,I do not talk about World War 1 constantly,This text relates to World War 1,This text does not relate to World War 1
+World War 2,World War 2, ,I talk about World War 2 constantly,I do not talk about World War 2 constantly,This text relates to World War 2,This text does not relate to World War 2
+YouTube,YouTube, ,I talk about YouTube constantly,I do not talk about YouTube constantly,This text relates to YouTube,This text does not relate to YouTube
+Zombies,Zombies, ,I talk about zombies constantly,I do not talk about zombies constantly,This text relates to zombies,This text does not relate to zombies
+Academic Journal,Academic Journal, ,I talk about academic journals constantly,I do not talk about academic journals constantly,This text relates to academic journals,This text does not relate to academic journals
+Adult Film Actor,Adult Film Actor, ,I talk about adult film actors constantly,I do not talk about adult film actors constantly,This text relates to adult film actors,This text does not relate to adult film actors
+Airline,Airline, ,I talk about airlines constantly,I do not talk about airlines constantly,This text relates to airlines,This text does not relate to airlines
+Airport,Airport, ,I talk about airports constantly,I do not talk about airports constantly,This text relates to airports,This text does not relate to airports
+Album,Album, ,I talk about albums constantly,I do not talk about albums constantly,This text relates to albums,This text does not relate to albums
+Ambassador,Ambassador, ,I talk about ambassadors constantly,I do not talk about ambassadors constantly,This text relates to ambassadors,This text does not relate to ambassadors
+Amphibian,Amphibian, ,I talk about amphibians constantly,I do not talk about amphibians constantly,This text relates to amphibians,This text does not relate to amphibians
+Animanga Character,Animanga Character, ,I talk about animanga characters constantly,I do not talk about animanga characters constantly,This text relates to animanga characters,This text does not relate to animanga characters
+Anime,Anime, ,I talk about anime constantly,I do not talk about anime constantly,This text relates to anime,This text does not relate to anime
+Architect,Architect, ,I talk about architects constantly,I do not talk about architects constantly,This text relates to architects,This text does not relate to architects
+Astronaut,Astronaut, ,I talk about astronauts constantly,I do not talk about astronauts constantly,This text relates to astronauts,This text does not relate to astronauts
+Badminton,Badminton, ,I talk about badminton constantly,I do not talk about badminton constantly,This text relates to badminton,This text does not relate to badminton
+Band,Band, ,I talk about bands constantly,I do not talk about bands constantly,This text relates to bands,This text does not relate to bands
+Bank,Bank, ,I talk about banks constantly,I do not talk about banks constantly,This text relates to banks,This text does not relate to banks
+Baseball,Baseball, ,I talk about baseball constantly,I do not talk about baseball constantly,This text relates to baseball,This text does not relate to baseball
+Basketball,Basketball, ,I talk about basketball constantly,I do not talk about basketball constantly,This text relates to basketball,This text does not relate to basketball
+Beach Volleyball,Beach Volleyball, ,I talk about beach volleyball constantly,I do not talk about beach volleyball constantly,This text relates to beach volleyball,This text does not relate to beach volleyball
+Beauty Queen,Beauty Queen, ,I talk about beauty queens constantly,I do not talk about beauty queens constantly,This text relates to beauty queens,This text does not relate to beauty queens
+Bird,Bird, ,I talk about birds constantly,I do not talk about birds constantly,This text relates to birds,This text does not relate to birds
+Bodybuilding,Bodybuilding, ,I talk about bodybuilding constantly,I do not talk about bodybuilding constantly,This text relates to bodybuilding,This text does not relate to bodybuilding
+Boxing,Boxing, ,I talk about boxing constantly,I do not talk about boxing constantly,This text relates to boxing,This text does not relate to boxing
+Broadcast Network,Broadcast Network, ,I talk about broadcast networks constantly,I do not talk about broadcast networks constantly,This text relates to broadcast networks,This text does not relate to broadcast networks
+Bus Company,Bus Company, ,I talk about bus companies constantly,I do not talk about bus companies constantly,This text relates to bus companies,This text does not relate to bus companies
+Business Person,Business Person, ,I talk about business people constantly,I do not talk about business people constantly,This text relates to business people,This text does not relate to business people
+Canal,Canal, ,I talk about canals constantly,I do not talk about canals constantly,This text relates to canals,This text does not relate to canals
+Canoeing,Canoeing, ,I talk about canoeing constantly,I do not talk about canoeing constantly,This text relates to canoeing,This text does not relate to canoeing
+Cardinal,Cardinal, ,I talk about cardinals constantly,I do not talk about cardinals constantly,This text relates to cardinals,This text does not relate to cardinals
+Castle,Castle, ,I talk about castles constantly,I do not talk about castles constantly,This text relates to castles,This text does not relate to castles
+Chef,Chef, ,I talk about chefs constantly,I do not talk about chefs constantly,This text relates to chefs,This text does not relate to chefs
+Chess,Chess, ,I talk about chess constantly,I do not talk about chess constantly,This text relates to chess,This text does not relate to chess
+Classical Music,Classical Music, ,I talk about classical music constantly,I do not talk about classical music constantly,This text relates to classical music,This text does not relate to classical music
+Comedian,Comedian, ,I talk about comedians constantly,I do not talk about comedians constantly,This text relates to comedians,This text does not relate to comedians
+Comic Strip,Comic Strip, ,I talk about comic strips constantly,I do not talk about comic strips constantly,This text relates to comic strips,This text does not relate to comic strips
+Comics Creator,Comics Creator, ,I talk about comics creators constantly,I do not talk about comics creators constantly,This text relates to comics creators,This text does not relate to comics creators
+Congressman,Congressman, ,I talk about congressmen constantly,I do not talk about congressmen constantly,This text relates to congressmen,This text does not relate to congressmen
+Cycling,Cycling, ,I talk about cycling constantly,I do not talk about cycling constantly,This text relates to cycling,This text does not relate to cycling
+Cycling Race,Cycling Race, ,I talk about cycling races constantly,I do not talk about cycling races constantly,This text relates to cycling races,This text does not relate to cycling races
+Dam,Dam, ,I talk about dams constantly,I do not talk about dams constantly,This text relates to dams,This text does not relate to dams
+Earthquake,Earthquake, ,I talk about earthquakes constantly,I do not talk about earthquakes constantly,This text relates to earthquakes,This text does not relate to earthquakes
+Economist,Economist, ,I talk about economists constantly,I do not talk about economists constantly,This text relates to economists,This text does not relate to economists
+Election,Election, ,I talk about elections constantly,I do not talk about elections constantly,This text relates to elections,This text does not relate to elections
+Engineer,Engineer, ,I talk about engineers constantly,I do not talk about engineers constantly,This text relates to engineers,This text does not relate to engineers
+Fashion Designer,Fashion Designer, ,I talk about fashion designers constantly,I do not talk about fashion designers constantly,This text relates to fashion designers,This text does not relate to fashion designers
+Fern,Fern, ,I talk about ferns constantly,I do not talk about ferns constantly,This text relates to ferns,This text does not relate to ferns
+Figure Skating,Figure Skating, ,I talk about figure skating constantly,I do not talk about figure skating constantly,This text relates to figure skating,This text does not relate to figure skating
+Film Festival,Film Festival, ,I talk about film festivals constantly,I do not talk about film festivals constantly,This text relates to film festivals,This text does not relate to film festivals
+Fish,Fish, ,I talk about fish constantly,I do not talk about fish constantly,This text relates to fish,This text does not relate to fish
+Football,Football, ,I talk about football constantly,I do not talk about football constantly,This text relates to football,This text does not relate to football
+Formula One,Formula One, ,I talk about Formula One constantly,I do not talk about Formula One constantly,This text relates to Formula One,This text does not relate to Formula One
+Fungus,Fungus, ,I talk about fungi constantly,I do not talk about fungi constantly,This text relates to fungi,This text does not relate to fungi
+Galaxy,Galaxy, ,I talk about galaxies constantly,I do not talk about galaxies constantly,This text relates to galaxies,This text does not relate to galaxies
+Glacier,Glacier, ,I talk about glaciers constantly,I do not talk about glaciers constantly,This text relates to glaciers,This text does not relate to glaciers
+Golf,Golf, ,I talk about golf constantly,I do not talk about golf constantly,This text relates to golf,This text does not relate to golf
+Governor,Governor, ,I talk about governors constantly,I do not talk about governors constantly,This text relates to governors,This text does not relate to governors
+Grape,Grape, ,I talk about grapes constantly,I do not talk about grapes constantly,This text relates to grapes,This text does not relate to grapes
+Gymnastics,Gymnastics, ,I talk about gymnastics constantly,I do not talk about gymnastics constantly,This text relates to gymnastics,This text does not relate to gymnastics
+Handball,Handball, ,I talk about handball constantly,I do not talk about handball constantly,This text relates to handball,This text does not relate to handball
+Historian,Historian, ,I talk about historians constantly,I do not talk about historians constantly,This text relates to historians,This text does not relate to historians
+Historic Building,Historic Building, ,I talk about historic buildings constantly,I do not talk about historic buildings constantly,This text relates to historic buildings,This text does not relate to historic buildings
+Hockey,Hockey, ,I talk about hockey constantly,I do not talk about hockey constantly,This text relates to hockey,This text does not relate to hockey
+Horse Racing,Horse Racing, ,I talk about horse racing constantly,I do not talk about horse racing constantly,This text relates to horse racing,This text does not relate to horse racing
+Horse Rider,Horse Rider, ,I talk about horse riders constantly,I do not talk about horse riders constantly,This text relates to horse riders,This text does not relate to horse riders
+Hospital,Hospital, ,I talk about hospitals constantly,I do not talk about hospitals constantly,This text relates to hospitals,This text does not relate to hospitals
+Hotel,Hotel, ,I talk about hotels constantly,I do not talk about hotels constantly,This text relates to hotels,This text does not relate to hotels
+Insect,Insect, ,I talk about insects constantly,I do not talk about insects constantly,This text relates to insects,This text does not relate to insects
+Journalist,Journalist, ,I talk about journalists constantly,I do not talk about journalists constantly,This text relates to journalists,This text does not relate to journalists
+Judge,Judge, ,I talk about judges constantly,I do not talk about judges constantly,This text relates to judges,This text does not relate to judges
+Lake,Lake, ,I talk about lakes constantly,I do not talk about lakes constantly,This text relates to lakes,This text does not relate to lakes
+Law Firm,Law Firm, ,I talk about law firms constantly,I do not talk about law firms constantly,This text relates to law firms,This text does not relate to law firms
+Library,Library, ,I talk about libraries constantly,I do not talk about libraries constantly,This text relates to libraries,This text does not relate to libraries
+Lighthouse,Lighthouse, ,I talk about lighthouses constantly,I do not talk about lighthouses constantly,This text relates to lighthouses,This text does not relate to lighthouses
+Magazine,Magazine, ,I talk about magazines constantly,I do not talk about magazines constantly,This text relates to magazines,This text does not relate to magazines
+Manga,Manga, ,I talk about manga constantly,I do not talk about manga constantly,This text relates to manga,This text does not relate to manga
+Martial Arts,Martial Arts, ,I talk about martial arts constantly,I do not talk about martial arts constantly,This text relates to martial arts,This text does not relate to martial arts
+Mayor,Mayor, ,I talk about mayors constantly,I do not talk about mayors constantly,This text relates to mayors,This text does not relate to mayors
+Medician,Medician, ,I talk about medicians constantly,I do not talk about medicians constantly,This text relates to medicians,This text does not relate to medicians
+Military,Military, ,I talk about the military constantly,I do not talk about the military constantly,This text relates to the military,This text does not relate to the military
+Military Conflict,Military Conflict, ,I talk about military conflicts constantly,I do not talk about military conflicts constantly,This text relates to military conflicts,This text does not relate to military conflicts
+Mixed Martial Arts,Mixed Martial Arts, ,I talk about mixed martial arts constantly,I do not talk about mixed martial arts constantly,This text relates to mixed martial arts,This text does not relate to mixed martial arts
+Model,Model, ,I talk about models constantly,I do not talk about models constantly,This text relates to models,This text does not relate to models
+Monarch,Monarch, ,I talk about monarchs constantly,I do not talk about monarchs constantly,This text relates to monarchs,This text does not relate to monarchs
+Moss,Moss, ,I talk about mosses constantly,I do not talk about mosses constantly,This text relates to mosses,This text does not relate to mosses
+Mountain,Mountain, ,I talk about mountains constantly,I do not talk about mountains constantly,This text relates to mountains,This text does not relate to mountains
+Museum,Museum, ,I talk about museums constantly,I do not talk about museums constantly,This text relates to museums,This text does not relate to museums
+Music Festival,Music Festival, ,I talk about music festivals constantly,I do not talk about music festivals constantly,This text relates to music festivals,This text does not relate to music festivals
+Music Genre,Music Genre, ,I talk about music genres constantly,I do not talk about music genres constantly,This text relates to music genres,This text does not relate to music genres
+Musical,Musical, ,I talk about musicals constantly,I do not talk about musicals constantly,This text relates to musicals,This text does not relate to musicals
+Mythological Figure,Mythological Figure, ,I talk about mythological figures constantly,I do not talk about mythological figures constantly,This text relates to mythological figures,This text does not relate to mythological figures
+NASCAR Driver,NASCAR Driver, ,I talk about NASCAR drivers constantly,I do not talk about NASCAR drivers constantly,This text relates to NASCAR drivers,This text does not relate to NASCAR drivers
+Netball,Netball, ,I talk about netball constantly,I do not talk about netball constantly,This text relates to netball,This text does not relate to netball
+Newspaper,Newspaper, ,I talk about newspapers constantly,I do not talk about newspapers constantly,This text relates to newspapers,This text does not relate to newspapers
+Noble,Noble, ,I talk about nobles constantly,I do not talk about nobles constantly,This text relates to nobles,This text does not relate to nobles
+Olympic Event,Olympic Event, ,I talk about olympic events constantly,I do not talk about olympic events constantly,This text relates to olympic events,This text does not relate to olympic events
+Painter,Painter, ,I talk about painters constantly,I do not talk about painters constantly,This text relates to painters,This text does not relate to painters
+Philosopher,Philosopher, ,I talk about philosophers constantly,I do not talk about philosophers constantly,This text relates to philosophers,This text does not relate to philosophers
+Photographer,Photographer, ,I talk about photographers constantly,I do not talk about photographers constantly,This text relates to photographers,This text does not relate to photographers
+Planet,Planet, ,I talk about planets constantly,I do not talk about planets constantly,This text relates to planets,This text does not relate to planets
+Play,Play, ,I talk about plays constantly,I do not talk about plays constantly,This text relates to plays,This text does not relate to plays
+Playboy Playmate,Playboy Playmate, ,I talk about playboy playmates constantly,I do not talk about playboy playmates constantly,This text relates to playboy playmates,This text does not relate to playboy playmates
+Poem,Poem, ,I talk about poems constantly,I do not talk about poems constantly,This text relates to poems,This text does not relate to poems
+Poet,Poet, ,I talk about poets constantly,I do not talk about poets constantly,This text relates to poets,This text does not relate to poets
+Pope,Pope, ,I talk about popes constantly,I do not talk about popes constantly,This text relates to popes,This text does not relate to popes
+President,President, ,I talk about presidents constantly,I do not talk about presidents constantly,This text relates to presidents,This text does not relate to presidents
+Prime Minister,Prime Minister, ,I talk about prime ministers constantly,I do not talk about prime ministers constantly,This text relates to prime ministers,This text does not relate to prime ministers
+Prison,Prison, ,I talk about prisons constantly,I do not talk about prisons constantly,This text relates to prisons,This text does not relate to prisons
+Publisher,Publisher, ,I talk about publishers constantly,I do not talk about publishers constantly,This text relates to publishers,This text does not relate to publishers
+Racecourse,Racecourse, ,I talk about racecourses constantly,I do not talk about racecourses constantly,This text relates to racecourses,This text does not relate to racecourses
+Radio Host,Radio Host, ,I talk about radio hosts constantly,I do not talk about radio hosts constantly,This text relates to radio hosts,This text does not relate to radio hosts
+Radio Station,Radio Station, ,I talk about radio stations constantly,I do not talk about radio stations constantly,This text relates to radio stations,This text does not relate to radio stations
+Railway,Railway, ,I talk about railways constantly,I do not talk about railways constantly,This text relates to railways,This text does not relate to railways
+Religious,Religious, ,I talk about religion constantly,I do not talk about religion constantly,This text relates to religion,This text does not relate to religion
+Reptile,Reptile, ,I talk about reptiles constantly,I do not talk about reptiles constantly,This text relates to reptiles,This text does not relate to reptiles
+Restaurant,Restaurant, ,I talk about restaurants constantly,I do not talk about restaurants constantly,This text relates to restaurants,This text does not relate to restaurants
+River,River, ,I talk about rivers constantly,I do not talk about rivers constantly,This text relates to rivers,This text does not relate to rivers
+Road,Road, ,I talk about roads constantly,I do not talk about roads constantly,This text relates to roads,This text does not relate to roads
+Roller Coaster,Roller Coaster, ,I talk about roller coasters constantly,I do not talk about roller coasters constantly,This text relates to roller coasters,This text does not relate to roller coasters
+Rowing,Rowing, ,I talk about rowing constantly,I do not talk about rowing constantly,This text relates to rowing,This text does not relate to rowing
+Saint,Saint, ,I talk about saints constantly,I do not talk about saints constantly,This text relates to saints,This text does not relate to saints
+School,School, ,I talk about schools constantly,I do not talk about schools constantly,This text relates to schools,This text does not relate to schools
+Screenwriter,Screenwriter, ,I talk about screenwriters constantly,I do not talk about screenwriters constantly,This text relates to screenwriters,This text does not relate to screenwriters
+Senator,Senator, ,I talk about senators constantly,I do not talk about senators constantly,This text relates to senators,This text does not relate to senators
+Shopping Mall,Shopping Mall, ,I talk about shopping malls constantly,I do not talk about shopping malls constantly,This text relates to shopping malls,This text does not relate to shopping malls
+Single,Single, ,I talk about singles constantly,I do not talk about singles constantly,This text relates to singles,This text does not relate to singles
+Skating,Skating, ,I talk about skating constantly,I do not talk about skating constantly,This text relates to skating,This text does not relate to skating
+Skiing,Skiing, ,I talk about skiing constantly,I do not talk about skiing constantly,This text relates to skiing,This text does not relate to skiing
+Soap Character,Soap Character, ,I talk about soap characters constantly,I do not talk about soap characters constantly,This text relates to soap characters,This text does not relate to soap characters
+Soccer,Soccer, ,I talk about soccer constantly,I do not talk about soccer constantly,This text relates to soccer,This text does not relate to soccer
+Soccer Manager,Soccer Manager, ,I talk about soccer managers constantly,I do not talk about soccer managers constantly,This text relates to soccer managers,This text does not relate to soccer managers
+Solar Eclipse,Solar Eclipse, ,I talk about solar eclipses constantly,I do not talk about solar eclipses constantly,This text relates to solar eclipses,This text does not relate to solar eclipses
+Sports Team Member,Sports Team Member, ,I talk about sports team members constantly,I do not talk about sports team members constantly,This text relates to sports team members,This text does not relate to sports team members
+Stadium,Stadium, ,I talk about stadiums constantly,I do not talk about stadiums constantly,This text relates to stadiums,This text does not relate to stadiums
+Sumo,Sumo, ,I talk about sumo constantly,I do not talk about sumo constantly,This text relates to sumo,This text does not relate to sumo
+Swimming,Swimming, ,I talk about swimming constantly,I do not talk about swimming constantly,This text relates to swimming,This text does not relate to swimming
+Table Tennis,Table Tennis, ,I talk about table tennis constantly,I do not talk about table tennis constantly,This text relates to table tennis,This text does not relate to table tennis
+Television Station,Television Station, ,I talk about television stations constantly,I do not talk about television stations constantly,This text relates to television stations,This text does not relate to television stations
+Tennis,Tennis, ,I talk about tennis constantly,I do not talk about tennis constantly,This text relates to tennis,This text does not relate to tennis
+Theatre,Theatre, ,I talk about theatres constantly,I do not talk about theatres constantly,This text relates to theatres,This text does not relate to theatres
+Town,Town, ,I talk about towns constantly,I do not talk about towns constantly,This text relates to towns,This text does not relate to towns
+University,University, ,I talk about universities constantly,I do not talk about universities constantly,This text relates to universities,This text does not relate to universities
+Video Game,Video Game, ,I talk about video games constantly,I do not talk about video games constantly,This text relates to video games,This text does not relate to video games
+Village,Village, ,I talk about villages constantly,I do not talk about villages constantly,This text relates to villages,This text does not relate to villages
+Voice Actor,Voice Actor, ,I talk about voice actors constantly,I do not talk about voice actors constantly,This text relates to voice actors,This text does not relate to voice actors
+Volcano,Volcano, ,I talk about volcanoes constantly,I do not talk about volcanoes constantly,This text relates to volcanoes,This text does not relate to volcanoes
+Winery,Winery, ,I talk about wineries constantly,I do not talk about wineries constantly,This text relates to wineries,This text does not relate to wineries
+Wrestling,Wrestling, ,I talk about wrestling constantly,I do not talk about wrestling constantly,This text relates to wrestling,This text does not relate to wrestling
