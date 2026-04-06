@@ -1,3 +1,13 @@
+"""
+Note: Parts of this module are adapted from the original `activation_additions` 
+codebase by Turner et al. (2023) for their paper "Steering Language Models with Activation Engineering" (https://arxiv.org/pdf/2308.10248)
+
+The code has been modified and stripped down specifically for the experiments 
+in this repository.
+
+Original Repository: https://zenodo.org/records/13879423
+"""
+
 # %%
 # Compatibility layer for algebraic_value_editing, such that notebooks can be ran without changes.
 
