@@ -1,11 +1,6 @@
-
-
-# %% [markdown]
-# #### Plot scores across one prompt type
-
-# %%
 import pandas as pd
 import matplotlib.pyplot as plt
+import numpy as np
 
 def load_data(file_path):
     """
@@ -20,9 +15,6 @@ def load_data(file_path):
         return None
 
 
-import pandas as pd
-import matplotlib.pyplot as plt
-import numpy as np
 
 def plot_layer_slices(df, prompt_type):
     """
@@ -106,8 +98,58 @@ def plot_layer_slices(df, prompt_type):
     plt.show()
 
 
-file_name = 'results/part2_final(100)/bert_scores.csv' 
+
+def plot_concept_counts_per_layer(df, prompt_type):
+    # 0. Update global plot aesthetics
+    plt.rcParams.update({
+        "font.family": "serif",
+        "font.serif": "Times New Roman",
+        "font.size": 10,
+        "axes.labelsize": 11,
+        "xtick.labelsize": 9,
+        "ytick.labelsize": 9,
+        "legend.fontsize": 9
+    })
+
+    min_layer = int(df['Optimal Layer'].dropna().min())
+    max_layer = int(df['Optimal Layer'].dropna().max())
+    all_layers = range(min_layer, max_layer + 1)
+
+    filtered_df = df[df['Prompt Type'] == prompt_type].dropna(subset=['Optimal Layer']).copy()
+    
+    if filtered_df.empty:
+        print(f"No data found for Prompt Type {prompt_type}")
+        return
+
+    layer_counts = filtered_df.groupby('Optimal Layer').size()
+    layer_counts = layer_counts.reindex(all_layers, fill_value=0)
+    
+    fig, ax = plt.subplots(figsize=(3.0, 2.2))
+    
+    # Plot the bars
+    ax.bar(layer_counts.index, layer_counts.values, color='teal', edgecolor='black', zorder=3, width=0.8)
+    
+    # Only put a tick mark and label every 5 layers to stop overlapping
+    tick_positions = np.arange(0, max_layer + 1, 5)
+    ax.set_xticks(tick_positions)
+    ax.set_xticklabels([str(pos) for pos in tick_positions])
+    
+    # Labels
+    ax.set_xlabel('Optimal Layer')
+    ax.set_ylabel('Number of Concepts')
+    
+    ax.grid(axis='y', linestyle='--', alpha=0.7, zorder=0)
+    
+    plt.tight_layout()
+    plt.savefig(f"concept_count_per_layer_{prompt_type}.pdf", format='pdf', bbox_inches='tight')
+    print(f"Plot saved successfully")
+    plt.close(fig)
+
+file_name = '..\\results\concept_steerability_results\\bert_scores.csv' 
 
 # Load the data
 results_df = load_data(file_name)
-plot_layer_slices(results_df, 2)
+prompt_type=2
+
+plot_concept_counts_per_layer(results_df, prompt_type)
+plot_layer_slices(results_df, prompt_type)

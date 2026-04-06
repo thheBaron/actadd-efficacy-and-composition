@@ -89,9 +89,10 @@ def plot_3d_semantic_scores(df, prompt_type):
         margin=dict(l=0, r=0, b=0, t=40) # Removes wasted white space around the 3D box
     )
     
-    # Render the graph
+    
     fig.show()
 
-df = load_data('..\\results\part2_ultimate_final(improved_score)\\bert_scores.csv')
-if df is not None:
-    plot_3d_semantic_scores(df, prompt_type=2)
+df = load_data('..\\results\concept_steerability_results\\bert_scores.csv' )
+prompt_type = 2
+
+plot_3d_semantic_scores(df, prompt_type=prompt_type)
