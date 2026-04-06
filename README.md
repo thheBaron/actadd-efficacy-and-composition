@@ -29,3 +29,6 @@ Inside ``result_analysis`` directory there are many python scripts designed to a
  - **pca_semantic_visualization.py**: Create interactive 3d plot of concept semantics and steerability.
  - **prompt_formulation_impact.py**: Plot graph of Type 1 (concept-only) prompts vs Type 2 (counterbalanced) prompts and calculate correlation parameters.
  - **steerability_scores.ipynb**: Notebook to plot a graph combining each concept with its optimal layer layer and steering value.
+
+## Acknowledgments
+The `activation_additions` module used in this repository is a modified, stripped-down version of the [original codebase](https://zenodo.org/records/13879423) provided by [Turner et al. (2023)](https://arxiv.org/abs/2308.10248) in their foundational paper on Activation Addition. We thank the authors for open-sourcing their implementation.
